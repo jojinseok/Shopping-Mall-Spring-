@@ -13,4 +13,9 @@ public class welcomeController {
 		return "welcome";
 
 	}
+	@GetMapping("/prac")
+	public String prac(Model model) {
+		return "prac";
+
+	}
 }
